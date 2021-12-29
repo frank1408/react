@@ -11,7 +11,7 @@ FROM node:17-alpine3.12
 WORKDIR /app
 
 # ADD `/app/node_modules/.bin` TO $PATH
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH `/app/node_modules/.bin`:$PATH
 
 # INSTALL APP DEPENDENCIES
 COPY package.json ./
@@ -23,11 +23,11 @@ RUN npm install react-scripts@3.4.1 -g --silent
 COPY . ./
 
 
-# START APP PRODUCTION MODE ???
+# START APP PRODUCTION MODE ??? ALGO FALTA...
 ###RUN npm install -g serve  --silent
 ###RUN npm run build #CMD ["npm", "run", "build"] 
 ###CMD ["serve" "-s" "build"]
-# START APP PRODUCTION MODE ???
+# START APP PRODUCTION MODE ??? ALGO FALTA...
 
 
 # START APP DEV MODE
