@@ -1,0 +1,40 @@
+.ListaDePendientes{
+width:531px;
+margin:18px; 
+padding:18px;
+background-color:#001b33;
+color:#00ffff;
+border-radius:27px;
+border: 3px solid #0000ff;
+text-align:center;
+font-family:monospace;
+box-shadow:      00px 00px 27px 06px #00ffff;
+}
+
+.ListaDePendientes h1{
+text-shadow: 00px 00px 09px #00ffff;
+color:#001b33;
+margin-bottom:9px;
+font-size:45px;
+}
+
+.ListaDePendientes input{
+font-family:monospace;
+border-radius:9px;
+font-size:27px;
+margin-right:9px;
+}
+
+.TodoList{
+list-style:none;
+margin-bottom:18px;
+}
+
+.TodoItem{
+text-align:left;
+font-size:27px;
+margin-top:18px;
+margin-bottom:18px;
+}
+
+

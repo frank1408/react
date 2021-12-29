@@ -1,0 +1,14 @@
+.miReloj{
+background-color:#001b33;
+color:#ffffff;
+margin:18px;
+padding:18px;
+border:3px solid #0000ff;
+border-radius:18px;
+font-size:36px;
+font-family:monospace;
+width:243px;
+text-align:center;
+box-shadow:      00px 00px 27px 06px #00ffff;
+}
+

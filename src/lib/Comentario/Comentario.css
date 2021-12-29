@@ -1,0 +1,22 @@
+.Comentario{
+background-color:#001b33;
+color:cyan;
+border:3px solid #0000ff;
+width:270px;
+height:72px;
+padding:3px;
+position:relative;
+border-radius:18px;
+box-shadow:      00px 00px 03px 03px #00ffff;
+}
+
+.Comentario .Fecha{
+position:absolute;
+top:3px;
+right:3px;
+}
+
+.Comentario .Informacion{
+margin-left:45px;
+color: #ffffff;
+}
