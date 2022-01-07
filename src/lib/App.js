@@ -1,4 +1,5 @@
 import React             from 'react';
+import GetList from './Http/GetList';
 
 /*
 import './App.css';
@@ -20,6 +21,7 @@ return (
 <Toggle />
 */
 }
+<GetList />
 
 </div>
 );
