@@ -1,14 +1,14 @@
-import React             from 'react';
-import GetList from './Http/GetList';
+import React from 'react';
 
 /*
 import './App.css';
+import GetList from './Http/GetList';
+import PostMethod  from './Http/PostMethod';
 import Reloj             from './Reloj/Reloj';
 import ListaDePendientes from './ListaDePendientes/ListaDePendientes';
 import Comentario from './Comentario/Comentario';
 import Toggle            from './Toggle/Toggle';
 */
-
 
 function App( props ){
 return (
@@ -19,14 +19,12 @@ return (
 <Reloj />
 <ListaDePendientes />
 <Toggle />
+<GetList />
+<PostMethod />
 */
 }
-<GetList />
 
 </div>
 );
-
 } // export function App
-
 export default App;
-

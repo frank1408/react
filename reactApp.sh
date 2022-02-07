@@ -49,7 +49,7 @@ EOF
 docker build -t reactappdocker:dev .
 
 # EJECUTAR CONTENEDOR
-docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true reactappdocker:dev # si hay error, agregar este volumen -v /app/package.json
+docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3000:3000 -e CHOKIDAR_USEPOLLING=true reactappdocker:dev # si hay error, agregar este volumen -v /app/package.json
 
 
 echo "OPEN YOUR BROWSER TO http://localhost:3001"
