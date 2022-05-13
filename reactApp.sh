@@ -5,7 +5,8 @@ echo "DIC 29 2021 11:45:33 FUNCIONA"
 cat > Dockerfile << EOF
 # PULL OFFICIAL BASE IMAGE
 #FROM node:13.12.0-alpine
-FROM node:17-alpine3.12 
+#FROM node:17-alpine3.12 
+FROM node:18.0.0-alpine3.14
 
 # SET WORKING DIRECTORY INSIDE CONTAINER
 WORKDIR /app

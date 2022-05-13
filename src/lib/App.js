@@ -22,6 +22,9 @@ return (
 <GetList />
 <PostMethod />
 */
+
+<Reloj />
+
 }
 
 </div>
